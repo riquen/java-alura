@@ -7,7 +7,7 @@ public class CriaCliente {
 		henrique.setCpf("012.345.678-90");
 		henrique.setProfissao("Programador");;
 		
-		Conta contaHenrique = new Conta(013, 123456);
+		Conta contaHenrique = new ContaCorrente(013, 123456);
 		contaHenrique.deposita(100);
 		contaHenrique.setTitular(henrique);
 		System.out.println(contaHenrique.getTitular().getNome());
